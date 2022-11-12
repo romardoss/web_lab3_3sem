@@ -88,16 +88,6 @@ header > div {
 .service-item > a {
     font-size: 30px;
 }
-.icon-list{
-    display: flex;
-    height: 100px;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: white;
-}
-.icon-list > div{
-background-color: pink;
-}
 .works{
     display: grid;
     padding: 10px;
@@ -126,6 +116,7 @@ background-color: pink;
     color: white;
     height: 150px;
     align-items: center;
+    height: 250px;
     justify-content: center;
 }
 .quotes > div{
@@ -139,7 +130,7 @@ background-color: pink;
 }
 .team{
     display: grid;
-    padding: 10px;
+    padding: 30px;
     gap: 10px 10px;
     text-align: center;
     justify-content: space-evenly;
@@ -181,14 +172,23 @@ background-color: pink;
 }
 .achievements{
     display: flex;
-    background-color: aqua;
-    height: 150px;
+    background-color: #666666;
+    color: white;
+    padding-top:30px;
+    padding-bottom:30px;
+    height: 300px;
     align-items: center;
     justify-content: space-evenly;
+    font-size: 26px;
 }
 .achievements > div{
-    background-color: aliceblue;
     text-align: center;
+}
+.achievements > div > i{
+    font-size: 50px;;
+}
+.achievements > div > a{
+    font-size: 40px;;
 }
 .skills{
     display: grid;
