@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    display: grid;
+    gap: 0px 0px;
+}
+body > header {
+    background-color: #333;
+    height: 100px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+}
+.parallax{
+    background-image: url("photo/parallax\ test.jpg");
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color:#333;
+    opacity: 0.5;
+}
+.service{
+    display: grid;
+    grid-template-areas: 'text . .' 'text . .';
+    background-color: #333;
+    gap: 10px 10px;
+    text-align: center;
+    height: 300px;
+    padding: 10px;
+}
+.service-text{
+    grid-area: text;
+    background-color: burlywood;
+}
+.service-item{
+    background-color: burlywood;
+}
+.icon-list{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: aqua;
+}
+.icon-list > div{
+background-color: azure;
+}
+.works{
+    display: grid;
+    padding: 10px;
+    gap: 10px 10px;
+    text-align: center;
+    height: 300px;
+    background-color: #333;
+    grid-template-areas:'text text text' 
+                        'search search search'
+                        '. . .'
+                        '. . .';
+}
+.works-text{
+    grid-area: text;
+    background-color: aliceblue;
+}
+.works-search{
+    grid-area: search;
+    background-color: aliceblue;
+}
+.works > div{
+    background-color: aliceblue;
+}
+.quotes{
+    display: flex;
+    background-color: aqua;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+.quotes > div{
+    background-color: aliceblue;
+    text-align: center;
+}
+.team{
+    display: grid;
+    padding: 10px;
+    gap: 10px 10px;
+    text-align: center;
+    height: 500px;
+    background-color: #333;
+    grid-template-areas:'text text text' 
+                        '. . .';
+}
+.team-text{
+    grid-area: text;
+}
+.team > div{
+    background-color: aliceblue;
+    text-align: center;
+}
+.achievements{
+    display: flex;
+    background-color: aqua;
+    height: 150px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.achievements > div{
+    background-color: aliceblue;
+    text-align: center;
+}
+.skills{
+    display: grid;
+    padding: 10px;
+    gap: 10px 10px;
+    text-align: center;
+    height: 500px;
+    background-color: #333;
+    grid-template-areas:'text text text' 
+                        '. . .';
+}
+.skills-text{
+    grid-area: text;
+}
+.subscribe{
+    display: flex;
+    background-color: rgb(28, 172, 208);
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+[type="email"]{
+    width: 320px;
+}
+.partners{
+    display: flex;
+    background-color: rgb(109, 21, 176);
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.partners > div{
+    background-color: aliceblue;
+}
+.feedback{
+    height: 500px;
+}
+footer{
+    background-color: #333;
+    height: 200px;
+    color: aliceblue;
+    text-align: center;
+}
