@@ -135,24 +135,49 @@ background-color: pink;
 }
 .under-quote{
     font-size: 15px;
-    font-style:normal;
+    font-style: normal;
 }
 .team{
     display: grid;
     padding: 10px;
     gap: 10px 10px;
     text-align: center;
-    height: 500px;
-    background-color: #333;
+    justify-content: space-evenly;
+    background-color: white;
     grid-template-areas:'text text text' 
                         '. . .';
+    color: #363636;
 }
 .team-text{
+    width: 80%;
     grid-area: text;
+    font-size: 60px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: start;
+    position: relative;
+    left: 10%;
 }
-.team > div{
-    background-color: aliceblue;
-    text-align: center;
+.team-text > a{
+    text-decoration: underline;
+}
+.team > div > img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.name {
+    font-size: 30px;
+    color: #42b8dd;
+}
+.role{
+    font-size: 28px;
+    color: #cccccc;
+}
+.description{
+    font-size: 18px;
+    color: #363636;
 }
 .achievements{
     display: flex;
