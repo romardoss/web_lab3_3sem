@@ -122,14 +122,20 @@ background-color: pink;
 }
 .quotes{
     display: flex;
-    background-color: aqua;
+    background-color: #666666;
+    color: white;
     height: 150px;
     align-items: center;
     justify-content: center;
 }
 .quotes > div{
-    background-color: aliceblue;
     text-align: center;
+    font-style: italic;
+    font-size: 30px;
+}
+.under-quote{
+    font-size: 15px;
+    font-style:normal;
 }
 .team{
     display: grid;
