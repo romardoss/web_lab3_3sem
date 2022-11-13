@@ -190,45 +190,164 @@ header > div {
 .achievements > div > a{
     font-size: 40px;;
 }
-.skills{
-    display: grid;
-    padding: 10px;
-    gap: 10px 10px;
-    text-align: center;
-    height: 500px;
-    background-color: #333;
-    grid-template-areas:'text text text' 
-                        '. . .';
-}
-.skills-text{
-    grid-area: text;
-}
 .subscribe{
+    background-color: #42b8dd;
+    height: 100px;
+}
+.subscibe-form{
     display: flex;
-    background-color: rgb(28, 172, 208);
-    height: 50px;
+    height: 100px;
     align-items: center;
     justify-content: center;
 }
 [type="email"]{
-    width: 320px;
+    width: 530px;
+    background-color: #42b8dd;
+    color: white;
+    font-size: 30px;
+    border: none;
+    outline: 0px;
+    margin-right: 50px;
+    position: relative;
+    right: 100px;
+}
+.subscibe-form > ::placeholder{
+    color: white;
+}
+.subscibe-form > [type="submit"]{
+    color: #42b8dd;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    position: relative;
+    right: 20px;
+    background-color: white;
 }
 .partners{
     display: flex;
-    background-color: rgb(109, 21, 176);
-    height: 200px;
+    background-color: #7f7f7f;
+    height: 300px;
     align-items: center;
     justify-content: space-evenly;
 }
 .partners > div{
-    background-color: aliceblue;
+    background-color: white;
+}
+.partners > div > img{
+    height: 200px;
+    width: 300px;
+    object-fit: contain;
 }
 .feedback{
     height: 500px;
+    display: grid;
+    grid-template-areas:'text text text' 
+                        'adress adress adress'
+                        'phone1 phone2 email'
+                        'useremail username submit'
+                        'message message submit';
+    background-color: #ebebeb;
+    gap: 10px 10px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    color: #363636;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.feedback > div > a{
+    text-decoration: underline;
+}
+.feedback-text{
+    font-size: 50px;
+}
+.adress{
+    grid-area: adress;
+    color: #363636
+}
+.phone1{
+    grid-area: phone1;
+}
+.phone1 > a{
+    text-decoration: none;
+    color: #363636;
+}
+.phone2{
+    grid-area: phone2;
+}
+.phone2 > a{
+    text-decoration: none;
+    color: #363636;
+}
+.email{
+    grid-area: email;
+}
+.email > a{
+    text-decoration: none;
+    color: #363636;
+}
+.useremail{
+    grid-area: useremail;
+}
+.useremail-field{
+    background-color: #ebebeb;
+    color: #a6a6a6;
+    border: 3px solid #363636;
+    width: 100%;
+    height: 40px;
+    font-size: 24px;
+    right: 0px;
+}
+.username{
+    grid-area: username;
+}
+.username-field{
+    background-color: #ebebeb;
+    color: #a6a6a6;
+    border: 3px solid #363636;
+    width: 100%;
+    height: 40px;
+    font-size: 24px;
+}
+.user-text{
+    grid-area: message;
+}
+textarea{
+    background-color: #ebebeb;
+    color: #a6a6a6;
+    border: 3px solid #363636;
+    width: 100%;
+    font-size: 24px;
+}
+.user-submit{
+    grid-area: submit;
+}
+.user-submit > [type=submit]{
+    color: #42b8dd;
+    background-color: white;
+    border: 3px solid #363636;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
 }
 footer{
-    background-color: #333;
-    height: 200px;
+    background-color: #252525;
     color: aliceblue;
     text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 36px;
+}
+footer > p{
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+footer > a{
+    font-size: 20px;
+    color: #7f7f7f;
+    font-style: italic;
 }
