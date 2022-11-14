@@ -58,7 +58,7 @@ header > div {
 .parallax{
     background-image: url("photo/parallax.jpg");
     min-height: 500px;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
