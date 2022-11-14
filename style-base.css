@@ -83,7 +83,7 @@ header > div {
     color: white;
     align-items: center;
     text-align: start;
-    font-size: 25px;
+    font-size: 20px;
 }
 .service-text{
     grid-area: text;
@@ -93,7 +93,7 @@ header > div {
     left: 100px;
 }
 .service > div > i{
-    font-size: 40px;
+    font-size: 35px;
 }
 .service-text > a{
     text-decoration: underline;
@@ -102,7 +102,7 @@ header > div {
     background-color: #42b8dd;
 }
 .service-item > a {
-    font-size: 40px;
+    font-size: 35px;
 }
 .works{
     display: grid;
