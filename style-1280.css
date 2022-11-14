@@ -177,6 +177,7 @@ header > div {
     height: 300px;
     border-radius: 50%;
     object-fit: cover;
+    margin-top: 0px;
 }
 .name {
     font-size: 30px;

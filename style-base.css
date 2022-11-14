@@ -140,10 +140,10 @@ header > div {
 .quotes > div{
     text-align: center;
     font-style: italic;
-    font-size: 30px;
+    font-size: 40px;
 }
 .under-quote{
-    font-size: 15px;
+    font-size: 25px;
     font-style: normal;
 }
 .team{
@@ -175,6 +175,7 @@ header > div {
     height: 400px;
     border-radius: 50%;
     object-fit: cover;
+    margin-top: 0px;
 }
 .name {
     font-size: 30px;
