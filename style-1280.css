@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: grid;
+    gap: 0px 0px;
+    height: 100%;
+    width: 100%;
+}
+header {
+    position: fixed;
+    display: flex;
+    background-color: rgb(51, 51, 51);
+    height: 50px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+header > div {
+    margin: 5px;
+}
+.topnav{
+    flex-grow: 1;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.topnav:hover{
+    background-color: #ddd;
+    color:black;
+}
+.room{
+    flex-grow: 2;
+}
+.signin{
+    flex-grow: 5;
+}
+.signin:hover {
+    background-color: #ddd;
+    color: black;
+}
+.parallax{
+    background-image: url("photo/parallax.jpg");
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    color: black;
+    opacity: 0.7;
+}
+.paralax-text{
+    z-index: 1;
+}
+.service{
+    display: grid;
+    grid-template-areas: 'text . .' 
+    'text . .';
+    background-color: #42b8dd;
+    width: 100%;
+    gap: 5px 5px;
+    height: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    align-items: center;
+}
+.service-text{
+    grid-area: text;
+    background-color: #00000000;
+    font-size: 35px;
+    position: relative;
+    left: 100px;
+}
+.service > div > i{
+    font-size: 30px;
+}
+.service-text > a{
+    text-decoration: underline;
+}
+.service-item{
+    background-color: #42b8dd;
+}
+.service-item > a {
+    font-size: 30px;
+}
+.works{
+    display: grid;
+    padding: 40px;
+    gap: 0px 0px;
+    text-align: center;
+    height: 700px;
+    background-color: #ebebeb;
+    color: #363636;
+    justify-items: space-evenly;
+    grid-template-areas:'text text text' 
+                        '. . .'
+                        '. . .';
+}
+.works-text{
+    grid-area: text;
+    font-size: 70px;
+}
+.works > div > img{
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
+.quotes{
+    display: flex;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    align-items: center;
+    height: 250px;
+    justify-content: center;
+}
+.quotes > div{
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+}
+.under-quote{
+    font-size: 15px;
+    font-style: normal;
+}
+.team{
+    display: grid;
+    padding: 40px;
+    gap: 10px 10px;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: white;
+    grid-template-areas:'text text text' 
+                        '. . .';
+    color: #363636;
+}
+.team-text{
+    width: 80%;
+    grid-area: text;
+    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: start;
+    position: relative;
+    left: 10%;
+}
+.team-text > a{
+    text-decoration: underline;
+}
+.team > div > img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.name {
+    font-size: 30px;
+    color: #42b8dd;
+}
+.role{
+    font-size: 28px;
+    color: #cccccc;
+}
+.description{
+    font-size: 18px;
+    color: #363636;
+}
+.achievements{
+    display: flex;
+    background-color: #666666;
+    color: white;
+    padding-top:30px;
+    padding-bottom:30px;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 24px;
+}
+.achievements > div{
+    text-align: center;
+}
+.achievements > div > i{
+    font-size: 45px;;
+}
+.achievements > div > a{
+    font-size: 35px;;
+}
+.subscribe{
+    background-color: #42b8dd;
+    height: 100px;
+}
+.subscibe-form{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+[type="email"]{
+    width: 530px;
+    background-color: #42b8dd;
+    color: white;
+    font-size: 30px;
+    border: none;
+    outline: 0px;
+    margin-right: 50px;
+    position: relative;
+    right: 100px;
+}
+.subscibe-form > ::placeholder{
+    color: white;
+}
+.subscibe-form > [type="submit"]{
+    color: #42b8dd;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    position: relative;
+    right: 20px;
+    background-color: white;
+}
+.partners{
+    display: flex;
+    background-color: #7f7f7f;
+    height: 270px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.partners > div{
+    background-color: white;
+}
+.partners > div > img{
+    height: 170px;
+    width: 200px;
+    object-fit: contain;
+}
+.feedback{
+    height: 500px;
+    display: grid;
+    grid-template-areas:'text text text' 
+                        'adress adress adress'
+                        'phone1 phone2 email'
+                        'useremail username submit'
+                        'message message submit';
+    background-color: #ebebeb;
+    gap: 10px 10px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    color: #363636;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.feedback > div > a{
+    text-decoration: underline;
+}
+.feedback-text{
+    font-size: 48px;
+}
+.adress{
+    font-size: 18px;
+    grid-area: adress;
+    color: #363636
+}
+.phone1{
+    font-size: 18px;
+    grid-area: phone1;
+}
+.phone1 > a{
+    text-decoration: none;
+    color: #363636;
+}
+.phone2{
+    font-size: 18px;
+    grid-area: phone2;
+}
+.phone2 > a{
+    text-decoration: none;
+    color: #363636;
+}
+.email{
+    font-size: 18px;
+    grid-area: email;
+}
+.email > a{
+    text-decoration: none;
+    color: #363636;
+}
+.useremail{
+    grid-area: useremail;
+}
+.useremail-field{
+    background-color: #ebebeb;
+    color: #a6a6a6;
+    border: 3px solid #363636;
+    width: 100%;
+    height: 40px;
+    font-size: 24px;
+    right: 0px;
+}
+.username{
+    grid-area: username;
+}
+.username-field{
+    background-color: #ebebeb;
+    color: #a6a6a6;
+    border: 3px solid #363636;
+    width: 100%;
+    height: 40px;
+    font-size: 24px;
+}
+.user-text{
+    grid-area: message;
+}
+textarea{
+    background-color: #ebebeb;
+    color: #a6a6a6;
+    border: 3px solid #363636;
+    width: 100%;
+    font-size: 24px;
+}
+.user-submit{
+    grid-area: submit;
+}
+.user-submit > [type=submit]{
+    color: #42b8dd;
+    background-color: white;
+    border: 3px solid #363636;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    background-color: #252525;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+footer > p{
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+footer > a{
+    font-size: 20px;
+    color: #7f7f7f;
+    font-style: italic;
+    text-decoration: none;
+}

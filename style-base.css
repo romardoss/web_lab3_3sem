@@ -49,7 +49,7 @@ header > div {
 }
 .parallax{
     background-image: url("photo/parallax.jpg");
-    min-height: 800px;
+    min-height: 1000px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -83,7 +83,7 @@ header > div {
     position: relative;
     left: 200px;
 }
-.material-icons{
+.service > div > i{
     font-size: 30px;
 }
 .service-text > a{
