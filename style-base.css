@@ -88,7 +88,7 @@ header > div {
 .service-text{
     grid-area: text;
     background-color: #00000000;
-    font-size: 70px;
+    font-size: 60px;
     position: relative;
     left: 100px;
 }
@@ -286,7 +286,7 @@ header > div {
 }
 .adress{
     grid-area: adress;
-    color: #363636
+    color: #363636;
 }
 .phone1{
     grid-area: phone1;

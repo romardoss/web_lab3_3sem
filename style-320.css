@@ -267,7 +267,7 @@ header > div {
     padding-bottom: 40px;
     color: #363636;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .feedback > div > a{
     text-decoration: underline;
@@ -279,11 +279,13 @@ header > div {
 .adress{
     font-size: 22px;
     grid-area: adress;
-    color: #363636
+    color: #363636;
+    text-align: center;
 }
 .phone1{
     font-size: 22px;
     grid-area: phone1;
+    text-align: center;
 }
 .phone1 > a{
     text-decoration: none;
@@ -292,6 +294,7 @@ header > div {
 .phone2{
     font-size: 22px;
     grid-area: phone2;
+    text-align: center;
 }
 .phone2 > a{
     text-decoration: none;
@@ -300,6 +303,7 @@ header > div {
 .email{
     font-size: 22px;
     grid-area: email;
+    text-align: center;
 }
 .email > a{
     text-decoration: none;
@@ -307,6 +311,7 @@ header > div {
 }
 .useremail{
     grid-area: useremail;
+    text-align: center;
 }
 .useremail > input > ::placeholder{
     text-align: start;
@@ -315,33 +320,36 @@ header > div {
     background-color: #ebebeb;
     color: #a6a6a6;
     border: 3px solid #363636;
-    width: 95%;
+    width: 90%;
     height: 40px;
     font-size: 24px;
 }
 .username{
     grid-area: username;
+    text-align: center;
 }
 .username-field{
     background-color: #ebebeb;
     color: #a6a6a6;
     border: 3px solid #363636;
-    width: 95%;
+    width: 90%;
     height: 40px;
     font-size: 24px;
 }
 .user-text{
     grid-area: message;
+    text-align: center;
 }
 textarea{
     background-color: #ebebeb;
     color: #a6a6a6;
     border: 3px solid #363636;
-    width: 95%;
+    width: 90%;
     font-size: 24px;
 }
 .user-submit{
     grid-area: submit;
+    text-align: center;
 }
 .user-submit > [type=submit]{
     color: #42b8dd;
@@ -351,7 +359,7 @@ textarea{
     font-size: 30px;
     text-align: center;
     padding: 10px;
-    width: 95%;
+    width: 90%;
     cursor: pointer;
 }
 footer{
