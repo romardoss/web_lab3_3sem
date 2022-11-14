@@ -14,8 +14,9 @@ body{
 header {
     position: fixed;
     display: flex;
+    flex-direction: row;
     background-color: rgb(51, 51, 51);
-    height: 50px;
+    height: 80px;
     color: white;
     width: 100%;
     text-align: center;
@@ -40,9 +41,15 @@ header > div {
 }
 .room{
     flex-grow: 2;
+    display: inline;
+    padding-left: 20px;
 }
 .signin{
     flex-grow: 5;
+    font-size: 30px;
+    order: 2;
+    color: white;
+    padding-right: 20px;
 }
 .signin:hover {
     background-color: #ddd;
@@ -78,16 +85,18 @@ header > div {
     padding-bottom: 10px;
     color: white;
     align-items: center;
+    text-align: start;
+    font-size: 20px;
 }
 .service-text{
     grid-area: text;
     background-color: #00000000;
-    font-size: 35px;
+    font-size: 50px;
     position: relative;
-    left: 100px;
+    left: 50px;
 }
 .service > div > i{
-    font-size: 30px;
+    font-size: 40px;
 }
 .service-text > a{
     text-decoration: underline;
@@ -96,13 +105,14 @@ header > div {
     background-color: #42b8dd;
 }
 .service-item > a {
-    font-size: 30px;
+    font-size: 40px;
 }
 .works{
     display: grid;
     padding: 40px;
     gap: 0px 0px;
     text-align: center;
+    font-size: 18px;
     height: 700px;
     background-color: #ebebeb;
     color: #363636;
@@ -182,6 +192,7 @@ header > div {
 }
 .achievements{
     display: flex;
+    flex-direction: row;
     background-color: #666666;
     color: white;
     padding-top:30px;
@@ -206,11 +217,12 @@ header > div {
 }
 .subscibe-form{
     display: flex;
+    flex-direction: row;
     height: 100px;
     align-items: center;
     justify-content: center;
 }
-[type="email"]{
+.subscibe-form > [type="email"]{
     width: 530px;
     background-color: #42b8dd;
     color: white;
@@ -236,6 +248,7 @@ header > div {
 }
 .partners{
     display: flex;
+    flex-direction: row;
     background-color: #7f7f7f;
     height: 270px;
     align-items: center;
@@ -270,6 +283,7 @@ header > div {
 }
 .feedback-text{
     font-size: 48px;
+    text-align: center;
 }
 .adress{
     font-size: 18px;

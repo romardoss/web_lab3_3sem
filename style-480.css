@@ -87,7 +87,8 @@ header > div {
     padding-bottom: 10px;
     color: white;
     align-items: center;
-    font-size: 20px;
+    text-align: start;
+    font-size: 16px;
 }
 .service-text{
     grid-area: text;
@@ -97,7 +98,7 @@ header > div {
     left: 30px;
 }
 .service > div > i{
-    font-size: 35px;
+    font-size: 25px;
 }
 .service-text > a{
     text-decoration: underline;
@@ -106,7 +107,7 @@ header > div {
     background-color: #42b8dd;
 }
 .service-item > a {
-    font-size: 35px;
+    font-size: 25px;
 }
 .works{
     display: grid;
@@ -228,7 +229,7 @@ header > div {
     width: 80%;
     background-color: #42b8dd;
     color: white;
-    font-size: 30px;
+    font-size: 26px;
     border: none;
     outline: 0px;
     padding: 20px;
@@ -279,7 +280,7 @@ header > div {
     text-decoration: underline;
 }
 .feedback-text{
-    font-size: 42px;
+    font-size: 58px;
     text-align: center;
 }
 .adress{
@@ -321,7 +322,7 @@ header > div {
     background-color: #ebebeb;
     color: #a6a6a6;
     border: 3px solid #363636;
-    width: 100%;
+    width: 95%;
     height: 40px;
     font-size: 24px;
 }
@@ -332,7 +333,7 @@ header > div {
     background-color: #ebebeb;
     color: #a6a6a6;
     border: 3px solid #363636;
-    width: 100%;
+    width: 95%;
     height: 40px;
     font-size: 24px;
 }
@@ -343,7 +344,7 @@ textarea{
     background-color: #ebebeb;
     color: #a6a6a6;
     border: 3px solid #363636;
-    width: 100%;
+    width: 95%;
     font-size: 24px;
 }
 .user-submit{
@@ -357,7 +358,7 @@ textarea{
     font-size: 30px;
     text-align: center;
     padding: 10px;
-    width: 100%;
+    width: 95%;
     cursor: pointer;
 }
 footer{
